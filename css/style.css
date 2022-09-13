@@ -299,3 +299,49 @@ footer{
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 66px;
 }
+
+
+/* -------about_us------ */
+.about{
+    max-width: 1420px;
+    margin: auto;
+    margin-top: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about__title{
+    font-size: 61px;
+    font-weight: 800;
+    font-family: Raleway;
+    color: #282E3F;
+}
+.about__subname{
+    width: 655px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Raleway;
+    color: #000;
+    margin-top: 30px;
+}
+.about__dots{
+    margin-top: 57px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.about__dot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    border: 1px solid #282E3F;
+    padding: 16px 0;
+    transition: 0.3s;
+}
+.about__dot:hover{
+    background: #282E3F;
+}
+.about__dot:hover svg{
+    fill: #fff;
+}
