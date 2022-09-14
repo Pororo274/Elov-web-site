@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/imask"></script>
+    <script src="../js/phone_mask.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -61,6 +63,14 @@
                         <input type="file" name="file">		
                         <span>Загрузить файл</span>
                     </label>
+                    <input type="text" class="form__pole" id="phone-mask" placeholder="Телефон/Мессенджер">
+                    <input type="text" class="form__pole" placeholder="Имя">
+                    <div class="button__form__pole">
+                        <button type="submit" class="form__btn">
+                            Отправить заявку
+                        </button>
+                    </div>
+                    
                 </form>
             </div>
         </div>

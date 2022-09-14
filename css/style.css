@@ -97,7 +97,7 @@ img { display: block;}
     margin-top: 32px;
     background: none;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     color: #6A7082;
     padding: 18px 0;
     padding-left: 19px;
@@ -108,7 +108,8 @@ img { display: block;}
 
 .input-file {
 	position: relative;
-	display: inline-block;
+	display: flex;
+    justify-content: end;
 }
 .input-file span {
 	position: relative;
@@ -140,6 +141,39 @@ img { display: block;}
 	display: block;
 	width: 0;
 	height: 0;
+}
+.button__form__pole{
+    margin-top: 63px;
+    display: flex;
+    justify-content: center;
+}
+.form__btn{
+    background: none;
+    z-index: 1;
+    padding: 20px 55px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #282E3F;
+    border: 1px solid #282E3F;
+    position: relative;
+    transition: 0.3s;
+}
+.form__btn:hover::after{
+    width: 100%;
+}
+.form__btn:hover{
+    color: white;
+}
+.form__btn::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    z-index: -1;
+    background: #282E3F;
+    transition: width 0.3s ease-in-out;
 }
 /* header */
 header{
