@@ -17,21 +17,33 @@ img { display: block;}
     position: fixed;
     width: 100%;
     height: 100%;
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     background: rgba(0, 0, 0, 0.603);
     z-index: 200;
     top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease
 }
 #modal:target{
-    display: flex;
+    opacity: 1;
+    visibility: visible;
+}
+#modal:target .modal__okno{
+    transform: translateY(0px);
+    opacity: 1;
 }
 .modal__okno{
     font-family: Raleway;
     position: relative;
     background: white;
     padding: 72px 98px;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: all 1s ease;
 }
 .modal__header{
     position: absolute;
