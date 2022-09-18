@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/imask"></script>
     <script src="../js/phone_mask.js" defer></script>
+    <script src="../js/header-border.js" defer></script>
     <title>Document</title>
 </head>
 <body>

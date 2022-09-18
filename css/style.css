@@ -196,6 +196,9 @@ header{
     width: 100%;
     z-index: 10;
 }
+.header-border{
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
 .header__inner{
     max-width: 1420px;
     margin: auto;
@@ -232,6 +235,12 @@ header{
     background: #282E3F;
     transition: width .5s ease-in-out;
 }
+@media(max-width: 1420px){
+    .header__inner{
+        margin: 0 20px;
+    }
+}
+
 /* главная */
 .section{
     max-width: 1420px;
@@ -252,7 +261,7 @@ header{
     width: 655px;
     font-family: Raleway;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     color: #000;
     margin-top: 33px;
 }
@@ -263,7 +272,7 @@ header{
     padding: 20px 0;
     font-size: 14px;
     font-family: Raleway;
-    font-weight: 400;
+    font-weight: 500;
     text-align: center;
     border: 1px solid #282E3F;
     position: relative;
@@ -410,7 +419,11 @@ footer{
     background: #282E3F;
     transition: width .5s ease-in-out;
 }
-
+@media(max-width: 1420px){
+    footer{
+        margin: 0 20px;
+    }
+}
 
 
 /* ------projects------ */
