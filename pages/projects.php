@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <title>Document</title>
-</head>
 <body>
+        <?php 
+            require 'components/header.php';
+        ?>
     <div class="projects">
         <div class="projects-header">
             <div class="projects-header__column">
@@ -46,7 +37,7 @@
     <div class="projects__items">
         <div class="section-item">
             <div class="section-item-photo">
-                <img src="../img/foto.jpg" alt="">
+                <img src="img/foto.jpg" alt="">
             </div>
             <div class="section-item-hover">
                 <div class="section-item-subtitle">
@@ -63,7 +54,7 @@
         </div>
         <div class="section-item">
             <div class="section-item-photo">
-                <img src="../img/foto2.jpg" alt="">
+                <img src="img/foto2.jpg" alt="">
             </div>
             <div class="section-item-hover">
                 <div class="section-item-subtitle">
@@ -80,7 +71,7 @@
         </div>
         <div class="section-item">
             <div class="section-item-photo">
-                <img src="../img/foto3.jpg" alt="">
+                <img src="img/foto3.jpg" alt="">
             </div>
             <div class="section-item-hover">
                 <div class="section-item-subtitle">
@@ -97,7 +88,7 @@
         </div>
         <div class="section-item">
             <div class="section-item-photo">
-                <img src="../img/foto4.jpg" alt="">
+                <img src="img/foto4.jpg" alt="">
             </div>
             <div class="section-item-hover">
                 <div class="section-item-subtitle">
@@ -114,7 +105,7 @@
         </div>
         <div class="section-item">
             <div class="section-item-photo">
-                <img src="../img/foto5.jpg" alt="">
+                <img src="img/foto5.jpg" alt="">
             </div>
             <div class="section-item-hover">
                 <div class="section-item-subtitle">
@@ -131,7 +122,7 @@
         </div>
         <div class="section-item">
             <div class="section-item-photo">
-                <img src="../img/foto.jpg" alt="">
+                <img src="img/foto.jpg" alt="">
             </div>
             <div class="section-item-hover">
                 <div class="section-item-subtitle">
@@ -148,7 +139,7 @@
         </div>
         <div class="section-item">
             <div class="section-item-photo">
-                <img src="../img/foto7.jpg" alt="">
+                <img src="img/foto7.jpg" alt="">
             </div>
             <div class="section-item-hover">
                 <div class="section-item-subtitle">
@@ -165,7 +156,7 @@
         </div>
         <div class="section-item">
             <div class="section-item-photo">
-                <img src="../img/foto8.jpg" alt="">
+                <img src="img/foto8.jpg" alt="">
             </div>
             <div class="section-item-hover">
                 <div class="section-item-subtitle">
@@ -182,7 +173,7 @@
         </div>
         <div class="section-item">
             <div class="section-item-photo">
-                <img src="../img/foto9.jpg" alt="">
+                <img src="img/foto9.jpg" alt="">
             </div>
             <div class="section-item-hover">
                 <div class="section-item-subtitle">
@@ -198,5 +189,8 @@
             </div>
         </div>
     </div>
+    <?php 
+            require 'components/footer.php';
+        ?>
 </body>
 </html>

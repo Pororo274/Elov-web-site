@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/imask"></script>
-    <script src="../js/phone_mask.js" defer></script>
-    <script src="../js/header-border.js" defer></script>
-    <title>Document</title>
-</head>
 <body>
     <!-- modal -->
     <div id="modal">
@@ -77,20 +62,9 @@
         </div>
     </div>
     <!-- header -->
-    <header>
-        <div class="header__inner">
-            <div class="logo">
-                <img src="../img/logo.png" alt="">
-            </div>
-            <nuv class="menu-header">
-                <ul>
-                    <li><a href="#">Проекты</a></li>
-                    <li><a href="#">О нас</a></li>
-                    <li><a href="#">Хочу дизайн</a></li>
-                </ul>
-            </nuv>
-        </div>
-    </header>
+        <?php 
+            require 'components/header.php';
+        ?>
     <!-- главная -->
     <div class="section">
         <div class="section__column">
@@ -105,13 +79,53 @@
             </a>
         </div>
         <div class="section__column2">
+            <div class="swiper-pagination">01</div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1</div>
+                    <div class="swiper-slide swiper-slide2">Slide 2</div>
+                    <div class="swiper-slide">Slide 3</div>
+                    <div class="swiper-slide">Slide 4</div>
+                    <div class="swiper-slide">Slide 5</div>
+                    <div class="swiper-slide">Slide 6</div>
+                    <div class="swiper-slide">Slide 7</div>
+                    <div class="swiper-slide">Slide 8</div>
+                    <div class="swiper-slide">Slide 9</div>
+                </div>
+                <div class="slider-info">
+                    <div class="slider-info__number">03</div>
+                    <div class="slider-info__line"></div>
+                    <p class="slider-info__p">
+                        Аудит бизнес‑процессов и UX-аналитика
+                    </p>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>  
+            </div>
         </div>
     </div>
     <!-- ПРОЕКТЫ -->
     <div class="section2">
         <div class="section-item">
             <div class="section-item-photo">
-                <img src="../img/foto.jpg" alt="">
+                <img src="img/foto.jpg" alt="">
+            </div>
+            <div class="section-item-hover">
+                <div class="section-item-subtitle">
+                    Название классификации проекта
+                </div>
+                <div class="section-item-title">
+                    Название выполненного проекта
+                </div>
+                <div class="section-item-row">
+                    <a href="#" class="item-but">Хочу также!</a>
+                    <a href="?p=project" class="item-but2"><img src="img/arrow-right1.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="section-item">
+            <div class="section-item-photo">
+                <img src="img/foto2.jpg" alt="">
             </div>
             <div class="section-item-hover">
                 <div class="section-item-subtitle">
@@ -128,7 +142,7 @@
         </div>
         <div class="section-item">
             <div class="section-item-photo">
-                <img src="../img/foto2.jpg" alt="">
+                <img src="img/foto3.jpg" alt="">
             </div>
             <div class="section-item-hover">
                 <div class="section-item-subtitle">
@@ -145,7 +159,7 @@
         </div>
         <div class="section-item">
             <div class="section-item-photo">
-                <img src="../img/foto3.jpg" alt="">
+                <img src="img/foto4.jpg" alt="">
             </div>
             <div class="section-item-hover">
                 <div class="section-item-subtitle">
@@ -162,7 +176,7 @@
         </div>
         <div class="section-item">
             <div class="section-item-photo">
-                <img src="../img/foto4.jpg" alt="">
+                <img src="img/foto5.jpg" alt="">
             </div>
             <div class="section-item-hover">
                 <div class="section-item-subtitle">
@@ -179,24 +193,7 @@
         </div>
         <div class="section-item">
             <div class="section-item-photo">
-                <img src="../img/foto5.jpg" alt="">
-            </div>
-            <div class="section-item-hover">
-                <div class="section-item-subtitle">
-                    Название классификации проекта
-                </div>
-                <div class="section-item-title">
-                    Название выполненного проекта
-                </div>
-                <div class="section-item-row">
-                    <a href="#" class="item-but">Хочу также!</a>
-                    <a href="#" class="item-but2"><img src="img/arrow-right1.png" alt=""></a>
-                </div>
-            </div>
-        </div>
-        <div class="section-item">
-            <div class="section-item-photo">
-                <img src="../img/foto.jpg" alt="">
+                <img src="img/foto.jpg" alt="">
             </div>
             <div class="section-item-hover">
                 <div class="section-item-subtitle">
@@ -213,17 +210,8 @@
         </div>
     </div>
     <!-- footer -->
-    <footer>
-        <div class="logo">
-            <img src="../img/logo.png" alt="">
-        </div>
-        <nuv class="menu-footer">
-            <ul>
-                <li><a href="https://vk.com/away.php?to=https%3A%2F%2Fwww.behance.net%2Felovdesign%2Fprojects">Behance</a></li>
-                <li><a href="https://vk.com/elovdesign">ВКонтакте</a></li>
-                <li><a href="https://vk.com/away.php?to=https%3A%2F%2Fwww.behance.net%2Felovdesign%2Fprojects">Youtube</a></li>
-            </ul>
-        </nuv>
-    </footer>
+    <?php
+        require 'components/footer.php';
+    ?>
 </body>
 </html>

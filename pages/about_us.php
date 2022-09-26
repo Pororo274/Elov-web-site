@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&display=swap" rel="stylesheet">
-    <title>Document</title>
-</head>
 <body>
+<?php 
+            require 'components/header.php';
+        ?>
     <div class="about">
         <div class="about__column">
             <h1 class="about__title">
@@ -59,8 +50,11 @@
             </div>
         </div>
         <div class="about__column">
-            <img src="../img/foto_about.png" alt="">
+            <img src="img/photo_about.png" alt="">
         </div>
     </div>
 </body>
+<?php 
+            require 'components/footer.php';
+        ?>
 </html>
