@@ -1,8 +1,8 @@
 <header>
     <div class="header__inner">
-        <div class="logo">
+        <a href="?landing" class="logo">
             <img src="img/logo.png" alt="">
-        </div>
+        </a>
         <nuv class="menu-header">
             <ul>
                 <li><a href="?p=projects">Проекты</a></li>
@@ -10,5 +10,8 @@
                 <li><a href="#">Хочу дизайн</a></li>
             </ul>
         </nuv>
+        <a href="#burger" class="burger-btn">
+            <img src="img/burger.png" alt="">
+        </a>
     </div>
 </header>

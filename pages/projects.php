@@ -12,7 +12,7 @@
                 </label>
                 <label class="projects-header__column__inner">
                     <ul class="projects-header__column__menu">
-                        <li><a href="#">Сначала новые</a><img class="projects-header__menu_arrow" src="../img/Arrow.png" alt="">
+                        <li><a href="#">Сначала новые</a><img class="projects-header__menu_arrow" src="img/Arrow.png" alt="">
                             <ul class="projects-header__column__submenu">
                                 <li><a href="#">Сначала старые</a></li>
                                 <li><a href="#">что-то ещё</a></li>
@@ -20,7 +20,7 @@
                         </li>
                     </ul>
                     <ul class="projects-header__column__menu">
-                        <li><a href="#">Все проекты</a><img class="projects-header__menu_arrow" src="../img/Arrow.png" alt="">
+                        <li><a href="#">Все проекты</a><img class="projects-header__menu_arrow" src="img/Arrow.png" alt="">
                             <ul class="projects-header__column__submenu">
                                 <li><a href="#">что-то ещё</a></li>
                                 <li><a href="#">что-то ещё</a></li>

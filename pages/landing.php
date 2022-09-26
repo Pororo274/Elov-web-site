@@ -1,9 +1,22 @@
 <body>
+    <!-- burger -->
+    <div id="burger">
+      <div class="burger__inner">
+        <a href="#" class="burger__header">
+          <img src="img/carbon_close.png" alt="">
+        </a>
+        <ul>
+            <li><a href="?p=projects">Проекты</a></li>
+            <li><a href="?p=about">О нас</a></li>
+            <li><a href="#">Хочу дизайн</a></li>
+        </ul>
+      </div>
+    </div>
     <!-- modal -->
     <div id="modal">
         <div class="modal__okno">
             <a href="#" class="modal__header">
-                <img src="../img/carbon_close.png" alt="">
+                <img src="img/carbon_close.png" alt="">
             </a>
             <div class="modal__body">
                 <h1 class="modal__title">

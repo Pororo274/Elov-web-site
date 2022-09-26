@@ -50,7 +50,7 @@
             </div>
         </div>
         <div class="about__column">
-            <img src="img/photo_about.png" alt="">
+            <img src="img/foto_about.png" alt="">
         </div>
     </div>
 </body>

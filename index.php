@@ -33,12 +33,12 @@
     />
     <script src="https://unpkg.com/imask"></script>
     <script src="js/phone_mask.js" defer></script>
-    <script src="js/header-border.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js" defer></script>
     <script src="js/landing-slider.js" defer></script>
       <?php
     }
     ?>
+    <script src="js/header-border.js" defer></script>
     <title>
     <?php
 
@@ -89,6 +89,8 @@ if (isset($_GET['p'])) {
       require 'pages/admin_add_project.php';
     } elseif (isset($_GET['add-category'])) {
       require 'pages/admin_add_category.php';
+    } elseif (isset($_GET['landing'])) {
+      require 'pages/landing.php';
     } else {
       require 'pages/admin_main.php';
     }

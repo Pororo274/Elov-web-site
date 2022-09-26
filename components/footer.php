@@ -1,7 +1,7 @@
 <footer>
-        <div class="logo">
+        <a href="?landing" class="logo">
             <img src="img/logo.png" alt="">
-        </div>
+        </a>
         <nuv class="menu-footer">
             <ul>
                 <li><a href="https://vk.com/away.php?to=https%3A%2F%2Fwww.behance.net%2Felovdesign%2Fprojects">Behance</a></li>
